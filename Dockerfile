@@ -8,7 +8,7 @@ LABEL "com.github.actions.color"="green"
 LABEL "repository"="kologicdev/github-action-get-packer-ansible"
 LABEL "homepage"="kologicdev/github-action-get-packer-ansible"
 LABEL "maintainer"="Stepan <kologicdev@icloud.com>"
-LABEL "version"="0.0.1"
+LABEL "version"="0.0.2"
 
 RUN apk add --no-cache --virtual .run-deps \
        python2 \
