@@ -24,5 +24,4 @@ RUN apk add --no-cache --virtual .run-deps \
     && apk --purge del .build-deps \
     && rm -rf /var/cache/apk /root/.cache
 
-WORKDIR $GOPATH
-ENTRYPOINT ["bin/packer"]
+ENTRYPOINT ["/bin/packer"]
