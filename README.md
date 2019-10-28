@@ -1,2 +1,2 @@
 # github-action-get-packer
-get hashicorp packer github action
+get hashicorp packer with ansible provisioner support github action
