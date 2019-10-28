@@ -30,4 +30,4 @@ ENV USER=packer
 ENV HOME=/home/packer
 WORKDIR /home/packer
 
-ENTRYPOINT ["/usr/bin/packer"]
+ENTRYPOINT ["bin/packer"]
